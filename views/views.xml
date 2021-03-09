@@ -29,7 +29,7 @@
     </field>
   </record>
 
-
+<!--
   <record id="action_academy_courses" model="ir.actions.act_window">
     <field name="name">Academy courses</field>
     <field name="res_model">academy.courses</field>
@@ -75,15 +75,15 @@
     </field>
   </record>
 
-
+-->
   <menuitem sequence="0" id="menu_academy" name="Academy"/>
   <menuitem id="menu_academy_content" parent="menu_academy"
             name="Academy Content"/>
-  <menuitem id="menu_academy_content_courses"
+<!--  <menuitem id="menu_academy_content_courses"
             parent="menu_academy_content"
             action="action_academy_courses"
 	    sequence="0"/>
-
+-->
 
   <menuitem id="menu_academy_content_teachers"
             parent="menu_academy_content"
