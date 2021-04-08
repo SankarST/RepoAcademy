@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+	  <record model="product.public.category" id="category_e_others">
+	      <field name="name">E Others</field>
+	  </record>
+	 
+	  <record model="product.public.category" id="category_e_courses">
+             <field name="name">E Courses</field>
+	     <!--field name="parent_id"  ref="website_sale.categ_others"/-->
+	     <field name="parent_id"  ref="category_e_others"/> 
+	  </record>
+   </data>
+</odoo>
+
